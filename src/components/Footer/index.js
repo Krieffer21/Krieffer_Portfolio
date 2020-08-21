@@ -6,8 +6,6 @@ function Footer() {
         <div class="footA">
          <p> Email: kaelynrieffer@gmail.com ~ Phone: 520-907-4678 </p>
         </div>
-
-
     );
 }
 

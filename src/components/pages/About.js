@@ -4,7 +4,6 @@ import AboutCard from "../AboutCard";
 function About() {
     return (
       <AboutCard />
-
       );
   }
   

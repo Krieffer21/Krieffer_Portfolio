@@ -1,14 +1,10 @@
 import React from "react";
+import Portfolio from "..Portfolio/";
 
 function Portfolio() {
     return (
-      <div>
-        <h1>Portfolio</h1>
-        <p>
-
-        </p>
-      </div>
-    );
+      <Portfolio />
+      );
   }
   
   export default Portfolio;

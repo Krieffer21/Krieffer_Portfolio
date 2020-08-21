@@ -13,18 +13,18 @@ return (
         </container>
     </div>
         <section id="links">
-        <div class="container link">
+        <div className="container link">
             <h3> Links </h3>
-            <a href="https://github.com/Krieffer21/">Git Hub Page: https://github.com/Krieffer21/ </a>
+            <link href="https://github.com/Krieffer21/">Git Hub Page: https://github.com/Krieffer21/ </link>
             <div>
-                <a href="https://www.linkedin.com/in/kaelyn-rieffer-b41a811a2/">LinkedIn page:
-                    https://www.linkedin.com/in/kaelyn-rieffer-b41a811a2/ </a>
+                <link href="https://www.linkedin.com/in/kaelyn-rieffer-b41a811a2/">LinkedIn page:
+                    https://www.linkedin.com/in/kaelyn-rieffer-b41a811a2/ </link>
             </div>
             <div>
-                <a
+                <link
                     href="https://docs.google.com/document/d/1eRAWQx83EC40dg7i9n2EdPf5q38tbL7Lx2Y2ExZxBAQ/export?format=pdf">
                     Resume:
-                    https://docs.google.com/document/d/1eRAWQx83EC40dg7i9n2EdPf5q38tbL7Lx2Y2ExZxBAQ/export?format=pdf</a>
+                    https://docs.google.com/document/d/1eRAWQx83EC40dg7i9n2EdPf5q38tbL7Lx2Y2ExZxBAQ/export?format=pdf</link>
             </div>
         </div>
      </section>
