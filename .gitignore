@@ -16,7 +16,7 @@ package-lock.json
 .env.development.local
 .env.test.local
 .env.production.local
-README 2.md
+README2.md
 
 npm-debug.log*
 yarn-debug.log*

@@ -1,14 +1,11 @@
 import React from "react";
+import AboutCard from "../AboutCard";
 
-function About() {
+function About(props) {
     return (
-      <div>
-        <h1>About Me</h1>
-        <p>
+      <AboutCard />
 
-        </p>
-      </div>
-    );
+      );
   }
   
   export default About;

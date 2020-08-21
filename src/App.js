@@ -4,6 +4,8 @@ import Navbar from "./components/Navbar";
 import Portfolio from "./components/pages/Portfolio";
 import About from "./components/pages/About";
 import Contact from "./components/pages/Contact";
+import Footer from "./components/Footer";
+import Wrapper from "./components/Wrapper"
 
 
 function App() {
