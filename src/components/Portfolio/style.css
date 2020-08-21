@@ -1,0 +1,20 @@
+.container {
+    padding: 20px;
+    align-self: center;
+    outline-width: 2px;    
+}
+
+.port {
+    background-color: #e6e6e6;
+    border-radius: 2px;
+    outline-color:  #666F76;
+    outline-style: solid;
+    padding: 10px;
+}
+#box {
+    margin: 10px;
+}
+.project {
+    width: 80%;
+    height: auto;
+    padding: 15px;

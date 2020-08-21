@@ -1,0 +1,51 @@
+[
+    {
+        "id": 1,
+        "project": "Lyrics to Go",
+        "src": "./Images/UsedImgs/lyricsTOgo.png",
+        "alt": "Lyrics to Go App",
+        "depl": "https://krieffer21.github.io/Lyrics-To-Go/ ",
+        "git": "https://github.com/Krieffer21/Lyrics-To-Go"
+    },
+    {
+        "id": 2,
+        "project": "Critical Hit ",
+        "src": "./Images/UsedImgs/hitLogo.png",
+        "alt": "Critical Hit App",
+        "depl": "https://critical-hit-fantasy-character.herokuapp.com/ ",
+        "git": "https://github.com/Krieffer21/project-2"
+    },
+    {
+        "id": 3,
+        "project": "Weather App ",
+        "src": "./Images/UsedImgs/weather.png",
+        "alt": "Weather App",
+        "depl": "https://krieffer21.github.io/Krieffer_06HW_Weather/",
+        "git": "https://github.com/Krieffer21/Krieffer_06HW_Weather"
+    },
+    {
+        "id": 4,
+        "project": "Coding Quiz ",
+        "src": "./Images/UsedImgs/codeQuiz.png",
+        "alt": "Coding Quiz App",
+        "depl": "https://krieffer21.github.io/Krieffer_04HW/",
+        "git": "https://github.com/Krieffer21/Krieffer_04HW"
+
+    },
+    {
+        "id": 5,
+        "project": "Note Taker",
+        "src": "./Images/UsedImgs/noteTaker.png",
+        "alt": "Note Taker App",
+        "depl": "https://morning-bastion-53699.herokuapp.com/notes",
+        "git": "https://github.com/Krieffer21/Krieffer_noteTaker"
+    },
+    {
+        "id": 6,
+        "project": "Eat Da Burger!",
+        "src": "./Images/UsedImgs/burger.png",
+        "alt": "Burger App",
+        "depl": "https://shielded-bayou-55697.herokuapp.com/",
+        "git": "https://github.com/Krieffer21/Krieffer_Handlebars"
+    }
+]

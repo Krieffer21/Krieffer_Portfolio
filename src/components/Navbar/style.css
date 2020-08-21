@@ -1,0 +1,12 @@
+.navbar-brand {
+    font-size: large;
+    color: #e6e6e6;
+    margin: 10px;
+    text-align: right;
+}
+
+#topNav{
+    background-color: #3B464A;
+    width: 100%;
+    padding: 10px;
+}
