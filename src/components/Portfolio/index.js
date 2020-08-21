@@ -1,6 +1,7 @@
 import React from "react";
 import "./style.css";
-import projects from "./projects.json";
+// import projects from "./projects.json";
+
 
 function Portfolio(projects) {
     return (
@@ -13,7 +14,7 @@ function Portfolio(projects) {
                 <link href={projects.depl}> Deployed link: {projects.depl}</link>
                 </div>
                 <div>
-                    <link href={projects.git}> GitHub link: {git}</link>
+                    <link href={projects.git}> GitHub link: {projects.git}</link>
                 </div>
             </article> 
         </section>

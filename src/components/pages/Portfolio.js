@@ -1,11 +1,11 @@
 import React from "react";
-import Portfolio from "..Portfolio/";
+import Portfolio from "../Portfolio";
 
-function Portfolio(props) {
+function PortfolioPage(props) {
     return (
       <Portfolio {...props.children}
        />
       );
   }
   
-  export default Portfolio;
+  export default PortfolioPage;

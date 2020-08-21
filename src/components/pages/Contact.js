@@ -1,11 +1,11 @@
 import React from "react";
 import Contact from "../Contact";
 
-function Contact() {
+function Contactpage() {
     return (
       <Contact />
 
       );
   }
   
-  export default Contact;
+  export default Contactpage;
