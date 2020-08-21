@@ -5,7 +5,9 @@ import Portfolio from "./components/pages/Portfolio";
 import About from "./components/pages/About";
 import Contact from "./components/pages/Contact";
 import Footer from "./components/Footer";
-import Wrapper from "./components/Wrapper"
+import Wrapper from "./components/Wrapper";
+import projects from "./projects.json";
+
 
 
 function App() {

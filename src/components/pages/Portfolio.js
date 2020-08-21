@@ -1,9 +1,10 @@
 import React from "react";
 import Portfolio from "..Portfolio/";
 
-function Portfolio() {
+function Portfolio(props) {
     return (
-      <Portfolio />
+      <Portfolio {...props.children}
+       />
       );
   }
   

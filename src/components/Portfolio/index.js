@@ -1,25 +1,23 @@
 import React from "react";
 import "./style.css";
+import projects from "./projects.json";
 
-function Portfolio(props) {
+function Portfolio(projects) {
     return (
         <div id="box" className="row">
         <section className="portfolio col-lg-6 col-md-6 col-sm-12">
-            <h4> Lyrics to Go </h4>
+            <h4> {projects.project} </h4>
             <article className="container port">
-                <img className="project" src="./Images/lyricsTOgo.png" alt="Lyrics to Go App"/>
+                <img className="project" src={projects.src} alt={projects.alt}/>
                 <div>
-                    <link href="https://krieffer21.github.io/Lyrics-To-Go/"> Deployed link:
-                        https://krieffer21.github.io/Lyrics-To-Go/ </link>
+                <link href={projects.depl}> Deployed link: {projects.depl}</link>
                 </div>
                 <div>
-                    <link href="https://github.com/Krieffer21/Lyrics-To-Go"> GitHub link:
-                        https://github.com/Krieffer21/Lyrics-To-Go </link>
+                    <link href={projects.git}> GitHub link: {git}</link>
                 </div>
             </article> 
         </section>
         </div>
-
     );
 }
 
