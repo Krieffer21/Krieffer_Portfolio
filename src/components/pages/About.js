@@ -1,7 +1,7 @@
 import React from "react";
 import AboutCard from "../AboutCard";
 
-function About(props) {
+function About() {
     return (
       <AboutCard />
 
