@@ -3,7 +3,7 @@ import "./style.css";
 
 function Footer() {
     return (
-        <div class="foot">
+        <div className="foot">
          <p> Email: kaelynrieffer@gmail.com ~ Phone: 520-907-4678 </p>
         </div>
     );
