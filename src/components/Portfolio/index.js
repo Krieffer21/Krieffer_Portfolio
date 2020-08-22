@@ -1,6 +1,8 @@
 import React from "react";
 import "./style.css";
 // import projects from "./projects.json";
+import { Link } from 'react-router-dom';
+
 
 
 function Portfolio(projects) {
@@ -11,10 +13,10 @@ function Portfolio(projects) {
             <article className="container port">
                 <img className="project" src={projects.src} alt={projects.alt}/>
                 <div>
-                <link href={projects.depl}> Deployed link: {projects.depl}</link>
+                <Link> Deployed link: {projects.depl}</Link>
                 </div>
                 <div>
-                    <link href={projects.git}> GitHub link: {projects.git}</link>
+                    <Link> GitHub link: {projects.git}</Link>
                 </div>
             </article> 
         </section>
