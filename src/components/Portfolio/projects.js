@@ -1,31 +1,26 @@
-
-import React, { Component } from "react";
-import projects from "../projects.json"
-import Portfolio from "../Portfolio/projects"
+import React from "react";
+import "./style.css";
 
 
-class Projects extends Portfolio {
-    state = {
-        projects 
-    }
-    render() {
+function Portfolio (props) {
     return (
-        <div id="projects">
-            {props.projects.map(projects => (
-            <Portfolio
-                    id= {projects.id}
-                    key= {projects.id}
-                    project= {projects.project}
-                    src= {projects.src}
-                    alt= {projects.alt}
-                    depl= {projects.depl}
-                    git= {projects.git}
-                    />
-            ))}
-           
+
+        <div id="box" className="row">
+        <section className="portfolio col-lg-6 col-md-6 col-sm-12">
+            <h4> {props.project} </h4>
+            <article className="container port">
+                <img className="project" src={props.src} alt={props.alt}/>
+                <div>
+                 <a type= "submit" href={props.depl}> Deployed link: {props.depl}</a>
+                </div>
+                <div>
+                    <a type= "submit" href={props.git}> 
+                    GitHub link: {props.git}</a> 
+                </div>
+            </article> 
+        </section>
         </div>
     );
-    }
 }
 
-export default Projects;
+export default Portfolio;

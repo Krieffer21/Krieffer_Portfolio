@@ -19,3 +19,8 @@
     height: auto;
     padding: 15px;
 }
+.portfolio {
+    text-align: center;
+    word-wrap: break-word;
+    padding: 10px;
+}
