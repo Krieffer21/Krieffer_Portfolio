@@ -18,20 +18,30 @@
     margin: 20px;
     padding: 10px;
 }
-#links {
+#box {
     margin: 10px;
     padding: 10px;
     text-align: center;
-    word-wrap: break-word;
 }
 .link {
     background-color: #e6e6e6;
     border-radius: 2px;
     outline-color:  #666F76;
     outline-style: solid;
+
 }
 .container {
     padding: 20px;
     align-self: center;
     outline-width: 2px;    
+}
+h1 {
+    text-align: center;
+    font-size: large;
+}
+#links {
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    word-wrap: break-word;
 }

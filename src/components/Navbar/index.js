@@ -4,24 +4,27 @@ import "./style.css";
 
 function NavTabs() {
     return (
-      <nav className="navbar navbar-expand-lg navbar-light bg-light">
-        <ul className="nav nav-tabs">
-        <li className="nav-item">
+      <nav>
+            <header className="row justify-content-md-center">
+        <nav className="sticky-top">
+            <div id="topNav">
+
+        <div id="name" >Kaelyn Rieffer</div>
+        <div>
           <Link className="navbar-brand" to="/" >
           About Me
           </Link>
-        </li>
-        <li className="nav-item">
           <Link className="navbar-brand" to="/portfolio">
             Portfolio
           </Link>
-        </li>
-        <li className="nav-item">
           <Link className="navbar-brand" to="/contact">
             Contact
           </Link>
-        </li>
-      </ul>
+          </div>
+      </div>
+        </nav>
+    </header>
+
       </nav>
     );
   }
