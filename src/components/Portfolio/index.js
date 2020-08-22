@@ -1,6 +1,6 @@
 
-import React, { Component } from "react";
-import projects from "../projects.json"
+import React from "react";
+import projects from "../../projects.json"
 import Portfolio from "../Portfolio/projects"
 
 
@@ -16,7 +16,7 @@ function Projects() {
                     alt= {project.alt}
                     depl= {project.depl}
                     git= {project.git}
-                    />
+            />
             ))}
            
         </div>

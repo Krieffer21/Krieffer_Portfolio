@@ -9,7 +9,7 @@ function Portfolio (props) {
         <section className="portfolio col-lg-6 col-md-6 col-sm-12">
             <h4> {props.project} </h4>
             <article className="container port">
-                <img className="project" src={props.src} alt={props.alt}/>
+                <img className="project" alt={props.alt} src={props.src} />
                 <div>
                  <a type= "submit" href={props.depl}> Deployed link: {props.depl}</a>
                 </div>

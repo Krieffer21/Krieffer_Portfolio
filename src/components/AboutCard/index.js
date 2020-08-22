@@ -8,7 +8,7 @@ return (
     <div className="row justify-content-md-center">
         <Container id="about" className="col-md-8 col-sm-12 col-lg-10">
             <h1> About Me </h1>
-            <img className="meimg" src= { require("../UsedImgs/IMG_20180226_202959_616.jpg")} alt= "Kaelyn Rieffer"/>
+            <img className="meimg" alt= "Kaelyn Rieffer" src= { require("../UsedImgs/IMG_20180226_202959_616.jpg")} />
             <p className="meText"> I am an artist and aspiring web developer, with a creative eye for uniqueness. I am a wonderful team player full of ideas. 
             </p>
         </Container>
