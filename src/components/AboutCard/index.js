@@ -13,7 +13,7 @@ return (
             </p>
         </Container>
     </div>
-        <section id="links">
+        <section id="box">
         <div className="container link">
             <h3> Links </h3>
             <a type="submit" href="https://github.com/Krieffer21/">Git Hub Page: https://github.com/Krieffer21/ </a>
@@ -22,8 +22,7 @@ return (
                     https://www.linkedin.com/in/kaelyn-rieffer-b41a811a2/ </a>
             </div>
             <div>
-                <a
-                    type="submit" href="https://docs.google.com/document/d/1eRAWQx83EC40dg7i9n2EdPf5q38tbL7Lx2Y2ExZxBAQ/export?format=pdf">Resume:https://docs.google.com/document/d/1eRAWQx83EC40dg7i9n2EdPf5q38tbL7Lx2Y2ExZxBAQ/export?format=pdf</a>
+                <a type="submit" href="https://docs.google.com/document/d/1eRAWQx83EC40dg7i9n2EdPf5q38tbL7Lx2Y2ExZxBAQ/export?format=pdf"> Resume: https://docs.google.com/document/d/1eRAWQx83EC40dg7i9n2EdPf5q38tbL7Lx2Y2ExZxBAQ/export?format=pdf</a>
             </div>
         </div>
      </section>

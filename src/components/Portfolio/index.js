@@ -1,22 +1,20 @@
 import React from "react";
 import "./style.css";
-// import projects from "./projects.json";
-import { Link } from 'react-router-dom';
 
 
-
-function Portfolio(projects) {
+function Portfolio (props) {
     return (
+
         <div id="box" className="row">
         <section className="portfolio col-lg-6 col-md-6 col-sm-12">
-            <h4> {projects.project} </h4>
+            <h4> {props.project} </h4>
             <article className="container port">
-                <img className="project" src={projects.src} alt={projects.alt}/>
+                <img className="project" src={props.src} alt={props.alt}/>
                 <div>
-                <Link> Deployed link: {projects.depl}</Link>
+                 Deployed link: {props.depl}
                 </div>
                 <div>
-                    <Link> GitHub link: {projects.git}</Link>
+                     GitHub link: {props.git}
                 </div>
             </article> 
         </section>
