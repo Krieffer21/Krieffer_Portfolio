@@ -7,18 +7,16 @@ import Contact from "./components/pages/Contact";
 import Footer from "./components/Footer";
 import Wrapper from "./components/Wrapper";
 
-
-
 function App() {
     return (
         <Router>
           <Navbar />
            <Wrapper>
-              <Route exact path="/*" component={About} />
               <Route exact path="/Krieffer_Portfolio" component={About} />
               <Route exact path="/Krieffer_Portfolio/about" component={About} />
               <Route exact path="/Krieffer_Portfolio/portfolio" component={Portfolio} />
               <Route exact path="/Krieffer_Portfolio/contact" component={Contact} />
+              <Route exact path="/*" component={About} />
             </Wrapper>
           <Footer />
         </Router>
