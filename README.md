@@ -6,7 +6,7 @@
 ### Routes
   The screenshot below shows the routes I have created for my portfolio.
 
-![Routes](https://github.com/Krieffer21/Krieffer_Portfolio/blob/master/readmeImgs/routes.png)
+![Routes](https://github.com/Krieffer21/Krieffer_Portfolio/blob/master/readmeImgs/route.png)
 
 ### Portfolio Card
   The Portfolio function in the screenshot below shows the layout of the project that is going to be displayed. 
