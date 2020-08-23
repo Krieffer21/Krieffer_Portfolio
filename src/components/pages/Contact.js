@@ -4,7 +4,6 @@ import Contact from "../Contact";
 function Contactpage() {
     return (
       <Contact />
-
       );
   }
   

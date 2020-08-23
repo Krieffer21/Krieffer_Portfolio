@@ -9,6 +9,12 @@
     color: #E2B4BD;
     font-size: larger;
 }
+.card-body {
+    border: #3b464a;
+    background-color: #666F76;
+    font-size: larger;
+  
+}
 .cont {
     color: #e6e6e6;
     padding-left: 10px;  

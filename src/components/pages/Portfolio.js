@@ -3,8 +3,7 @@ import Portfolio from "../Portfolio";
 
 function PortfolioPage(props) {
     return (
-      <Portfolio {...props.children}
-       />
+      <Portfolio {...props.children}/>
       );
   }
   
