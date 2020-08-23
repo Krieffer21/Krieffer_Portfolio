@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/Krieffer_Portfolio/static/css/main.c745192d.chunk.css",
+    "main.js": "/Krieffer_Portfolio/static/js/main.032b9f17.chunk.js",
+    "main.js.map": "/Krieffer_Portfolio/static/js/main.032b9f17.chunk.js.map",
+    "runtime-main.js": "/Krieffer_Portfolio/static/js/runtime-main.078cd26d.js",
+    "runtime-main.js.map": "/Krieffer_Portfolio/static/js/runtime-main.078cd26d.js.map",
+    "static/js/2.7501af50.chunk.js": "/Krieffer_Portfolio/static/js/2.7501af50.chunk.js",
+    "static/js/2.7501af50.chunk.js.map": "/Krieffer_Portfolio/static/js/2.7501af50.chunk.js.map",
+    "index.html": "/Krieffer_Portfolio/index.html",
+    "precache-manifest.6942a53d45eebf51725d764e1274422f.js": "/Krieffer_Portfolio/precache-manifest.6942a53d45eebf51725d764e1274422f.js",
+    "service-worker.js": "/Krieffer_Portfolio/service-worker.js",
+    "static/css/main.c745192d.chunk.css.map": "/Krieffer_Portfolio/static/css/main.c745192d.chunk.css.map",
+    "static/js/2.7501af50.chunk.js.LICENSE.txt": "/Krieffer_Portfolio/static/js/2.7501af50.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.078cd26d.js",
+    "static/js/2.7501af50.chunk.js",
+    "static/css/main.c745192d.chunk.css",
+    "static/js/main.032b9f17.chunk.js"
+  ]
+}
