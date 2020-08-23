@@ -19,7 +19,7 @@
 ![Map Data](https://github.com/Krieffer21/Krieffer_Portfolio/blob/master/readmeImgs/map.png)
 
 ### Gif
-  Delpoyed Link: https://krieffer21.github.io/
+  Delpoyed Link: https://krieffer21.github.io/Krieffer_Portfolio
   
   In the gifs below you can see the functioning portfolio. 
   
