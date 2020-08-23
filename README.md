@@ -21,6 +21,7 @@
 ### Gif
   Delpoyed Link:
   
-  In the gifs below you can see the functioning portfolio.
+  In the gifs below you can see the functioning portfolio. 
   
-![Gif]()
+![Gif](https://github.com/Krieffer21/Krieffer_Portfolio/blob/master/readmeImgs/gif1.gif)
+![Gif](https://github.com/Krieffer21/Krieffer_Portfolio/blob/master/readmeImgs/gif.2.gif)
