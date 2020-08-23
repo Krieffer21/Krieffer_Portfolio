@@ -16,7 +16,6 @@ function App() {
               <Route exact path="/Krieffer_Portfolio/about" component={About} />
               <Route exact path="/Krieffer_Portfolio/portfolio" component={Portfolio} />
               <Route exact path="/Krieffer_Portfolio/contact" component={Contact} />
-              <Route exact path="/*" component={About} />
             </Wrapper>
           <Footer />
         </Router>
