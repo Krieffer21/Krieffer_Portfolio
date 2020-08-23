@@ -1,7 +1,7 @@
 # Krieffer_Portfolio
 
 ## React Homework: React Portfolio
-  This assignment was to update our existing portfolio in react. 
+  This assignment was to update our existing portfolio using react. 
   
 ### Routes
   The screenshot below shows the routes I have created for my portfolio.
