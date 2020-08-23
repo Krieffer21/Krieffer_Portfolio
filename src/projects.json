@@ -2,7 +2,7 @@
     {
         "id": 1,
         "project": "Lyrics to Go",
-        "src": "./UsedImgs/lyricsTOgo.png",
+        "src": "https://drive.google.com/uc?export=view&id=12uE9FKWz8Js_uUTNkMcmn0ojMbZ0txYz",
         "alt": "Lyrics to Go App",
         "depl": "https://krieffer21.github.io/Lyrics-To-Go/ ",
         "git": "https://github.com/Krieffer21/Lyrics-To-Go"
@@ -10,7 +10,7 @@
     {
         "id": 2,
         "project": "Critical Hit ",
-        "src": "./UsedImgs/hitLogo.png",
+        "src": "https://drive.google.com/uc?export=view&id=187BpaT8pqK4ih-WzIgNVTJWWB026L6Bc",
         "alt": "Critical Hit App",
         "depl": "https://critical-hit-fantasy-character.herokuapp.com/ ",
         "git": "https://github.com/Krieffer21/project-2"
@@ -18,7 +18,7 @@
     {
         "id": 3,
         "project": "Weather App ",
-        "src": "./UsedImgs/weather.png",
+        "src": "https://drive.google.com/uc?export=view&id=1jHQ3VAxkt68iJgYaT08og1BI_R_ny7qw",
         "alt": "Weather App",
         "depl": "https://krieffer21.github.io/Krieffer_06HW_Weather/",
         "git": "https://github.com/Krieffer21/Krieffer_06HW_Weather"
@@ -26,7 +26,7 @@
     {
         "id": 4,
         "project": "Coding Quiz ",
-        "src": "./UsedImgs/codeQuiz.png",
+        "src": "https://drive.google.com/uc?export=view&id=1KEQUjvN5TiJM8b4StX-zA2eCyRWiY1f4",
         "alt": "Coding Quiz App",
         "depl": "https://krieffer21.github.io/Krieffer_04HW/",
         "git": "https://github.com/Krieffer21/Krieffer_04HW"
@@ -35,7 +35,7 @@
     {
         "id": 5,
         "project": "Note Taker",
-        "src": "./UsedImgs/noteTaker.png",
+        "src": "https://drive.google.com/uc?export=view&id=178ss6oUMrxSQcTgMseBti-xeTcqCYvqV",
         "alt": "Note Taker App",
         "depl": "https://morning-bastion-53699.herokuapp.com/notes",
         "git": "https://github.com/Krieffer21/Krieffer_noteTaker"
@@ -43,7 +43,7 @@
     {
         "id": 6,
         "project": "Eat Da Burger!",
-        "src": "./UsedImgs/burger.png",
+        "src": "https://drive.google.com/uc?export=view&id=10gVOZudiS2EQoRxbu7H6Roc8hXcYwCOK",
         "alt": "Burger App",
         "depl": "https://shielded-bayou-55697.herokuapp.com/",
         "git": "https://github.com/Krieffer21/Krieffer_Handlebars"
