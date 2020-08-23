@@ -1,6 +1,6 @@
 # Krieffer_Portfolio
 
-## React Homework: React Portfolio
+## React Homework: React Portfolio 
   This assignment was to update our existing portfolio using react. 
   
 ### Routes
