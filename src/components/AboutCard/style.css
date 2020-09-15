@@ -8,9 +8,9 @@
     align-self: auto;
 } 
 .meimg {
-    width: 80%;
-    height: auto;
-    margin: 10px;
+    max-width: 302px;
+    max-height: 350px;
+    margin: 5px;
     padding: 10px;
 }
 .meText {
