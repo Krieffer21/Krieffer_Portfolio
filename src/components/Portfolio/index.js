@@ -13,6 +13,7 @@ function Projects() {
                     project={project.project}
                     src={project.src}
                     alt={project.alt}
+                    about={project.about}
                     depl={project.depl}
                     git={project.git}
                 />

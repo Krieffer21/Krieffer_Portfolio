@@ -11,6 +11,7 @@ function Portfolio(props) {
                 <h4> {props.project} </h4>
                 <article className="container port">
                     <img className="project" alt={props.alt} src={props.src} />
+                         <div>{props.about}</div>
                     <Container>
                         <a className="container" type="submit" href={props.depl}> Deployed link: {props.depl}</a>
                         <a className="container" type="submit" href={props.git}> GitHub link: {props.git}</a>

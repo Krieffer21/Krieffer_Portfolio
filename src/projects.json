@@ -20,7 +20,7 @@
     {
         "id": 3,
         "project": "Weather App ",
-        "about":"",
+        "about":"The weather application gives the current days weather along with the forecast for the next 5 days. The user is able to search for a city and see the weather results, and click on prior searches. The cities the user searches for are saved to local storage. I used the openweather api and moment.js, a time/ date library, to get the required information needed.",
         "src": "https://drive.google.com/uc?export=view&id=1jHQ3VAxkt68iJgYaT08og1BI_R_ny7qw",
         "alt": "Weather App",
         "depl": "https://krieffer21.github.io/Krieffer_06HW_Weather/",
@@ -29,7 +29,7 @@
     {
         "id": 4,
         "project": "Coding Quiz ",
-        "about":"",
+        "about":"This application is a timed coding quiz with multiple-choice questions. When a question is answered incorrectly time is subtracted from the timer, if a question is answered correctly they are given the next question. The quiz also features a high scores page so after they finish the quiz or run out of time the user can submit their high score.",
         "src": "https://drive.google.com/uc?export=view&id=1KEQUjvN5TiJM8b4StX-zA2eCyRWiY1f4",
         "alt": "Coding Quiz App",
         "depl": "https://krieffer21.github.io/Krieffer_04HW/",
@@ -39,7 +39,7 @@
     {
         "id": 5,
         "project": "Note Taker",
-        "about":"",
+        "about":"This assignment was to write the backend code and connect it to the given front end code to create a note taker application. The completed application will allow the user to write a note, save it, and delete the selected note.",
         "src": "https://drive.google.com/uc?export=view&id=178ss6oUMrxSQcTgMseBti-xeTcqCYvqV",
         "alt": "Note Taker App",
         "depl": "https://morning-bastion-53699.herokuapp.com/notes",
@@ -48,7 +48,7 @@
     {
         "id": 6,
         "project": "Eat Da Burger!",
-        "about":"",
+        "about":"This application emulates the example 'Eat Da Burger' application. It allows the user to enter a burger name and then click a button to 'Devour it!'. The burger logger was built with MySQL, Node, Express, Handlebars and a homemade ORM.",
         "src": "https://drive.google.com/uc?export=view&id=10gVOZudiS2EQoRxbu7H6Roc8hXcYwCOK",
         "alt": "Burger App",
         "depl": "https://shielded-bayou-55697.herokuapp.com/",
