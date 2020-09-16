@@ -13,8 +13,8 @@ function Portfolio(props) {
                     <img className="project" alt={props.alt} src={props.src} />
                          <div>{props.about}</div>
                     <Container>
-                        <a className="container" type="submit" href={props.depl}> Deployed link: {props.depl}</a>
-                        <a className="container" type="submit" href={props.git}> GitHub link: {props.git}</a>
+                        <a className="container" type="submit" href={props.depl}> <button className="btn-links">Deployed link</button></a>
+                        <a className="container" type="submit" href={props.git}> <button className="btn-links">GitHub link</button></a>
                     </Container>
                 </article>
             </section>
