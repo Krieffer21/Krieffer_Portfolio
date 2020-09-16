@@ -1,7 +1,14 @@
+.bg-img{
+    background-image: url(https://drive.google.com/uc?export=view&id=1dh2ID5sVyzw4Ngpe0jYWHREf3hN9yV5F);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 200vh;
+    overflow: hidden;
+}
 #about {
     margin: 30px;
     padding: 10px;
-    background-color: #e6e6e6;
+    background-color: #e6e6e6b9;
     border-radius: 2px;
     outline-color:  #666F76;
     outline-style: solid;
@@ -10,7 +17,7 @@
 .meimg {
     max-width: 302px;
     max-height: 350px;
-    margin: 5px;
+    margin: 30px;
     padding: 10px;
 }
 .meText {
@@ -19,16 +26,16 @@
     padding: 10px;
 }
 #box {
-    margin: 10px;
-    padding: 10px;
     text-align: center;
 }
 .link {
-    background-color: #e6e6e6;
+    background-color: #e6e6e6b9;
     border-radius: 2px;
     outline-color:  #666F76;
     outline-style: solid;
 
+}
+.links {
 }
 .container {
     padding: 20px;
