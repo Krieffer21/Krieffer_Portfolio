@@ -15,7 +15,6 @@
     align-self: auto;
 } 
 .meimg {
-    max-width: 302px;
     max-height: 350px;
     margin: 30px;
     padding: 10px;
@@ -23,7 +22,7 @@
 .meText {
     text-align: left;
     margin: 20px;
-    padding: 10px;
+    padding: 20px;
 }
 #box {
     text-align: center;
