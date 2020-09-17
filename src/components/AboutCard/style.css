@@ -1,5 +1,5 @@
 .bg-img{
-    background-image: url(https://drive.google.com/uc?export=view&id=1dh2ID5sVyzw4Ngpe0jYWHREf3hN9yV5F);
+    background-image: url(https://drive.google.com/uc?export=view&id=1M7lXpFLpBYp5aoa7-tjg_hPfhT0M82sZ);
     background-repeat: no-repeat;
     background-size: cover;
     height: 200vh;
@@ -35,6 +35,7 @@
 
 }
 .links {
+    /* style text for the word links */
 }
 .container {
     padding: 20px;
@@ -50,4 +51,16 @@ h1 {
     padding: 10px;
     text-align: center;
     word-wrap: break-word;
+}
+.link-btns{
+    color: white;
+    background-color: #103900;
+    border-radius: 5px;
+}
+.link-btns:hover{
+    background-color: #102B3F;
+    
+}
+.row {
+    margin: 0px;
 }
