@@ -4,7 +4,7 @@ import Container from "../Container";
 
 function Contact() {
     return (
-        <div>
+        <div className="cont-bg-img">
             <div className="container" >
                 <header className="card-header">
                     Contact
