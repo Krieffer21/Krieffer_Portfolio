@@ -15,7 +15,7 @@ function Contact() {
                 </Container>
             </div>
             
-            <section id="box">
+            <section>
                 <div className="container link">
                     <h3> Links </h3>
                     <Container >
