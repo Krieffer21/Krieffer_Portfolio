@@ -6,28 +6,35 @@
 }
 
 .port {
-    background-color: #e6e6e6;
+    background-color: #e6e6e6b8;
     border-radius: 2px;
     outline-color:  #666F76;
     outline-style: solid;
     padding: 10px;
 }
+
 .box {
     margin: 10px;
 }
+
 .project {
     width: 80%;
     height: auto;
     padding: 15px;
 }
+
 .portfolio {
     text-align: center;
     padding: 10px;
 }
+
 .btn-links{
-background-color: black;
+    background-color: #56876D;
+    border-radius: 5px;
+    color: white;
 }
+
 .btn-links:hover{
-    background-color: w;
+    background-color: #8DB38B;
 
 }

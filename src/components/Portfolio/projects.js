@@ -6,7 +6,7 @@ import Container from "../Container"
 function Portfolio(props) {
     return (
         <div className="row box" >
-            <div className="col-lg-6 col-md-6 col-sm-12">
+            <div className="col-lg-8 col-md-6 col-sm-12">
             <section className="portfolio ">
                 <h4> {props.project} </h4>
                 <article className="container port">

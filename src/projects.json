@@ -2,8 +2,8 @@
     {
         "id": 1,
         "project": "The Handcrafted Heirloom",
-        "about":"For our final team project we created a custom website for a local business owner. We utilized ReactJs, MySql, Cloudinary, and PayPal. The owner of the website has a login to maintain the gallery page using a modal. We hope this website will expand the owners clientele.",
-        "src": "https://drive.google.com/1OyjeInzgGgXFYgfXcNYJM4GRW3ZOxIOs",
+        "about":"For our final team project we created a custom website for a local business owner. We utilized ReactJs, MySQL, Cloudinary, and PayPal. The owner of the website has a login to maintain the gallery page using a modal. We hope this website will expand the owners clientele.",
+        "src": "https://drive.google.com/uc?export=view&id=1OyjeInzgGgXFYgfXcNYJM4GRW3ZOxIOs",
         "alt": "Handcrafted Heirloom App",
         "depl": "https://shrouded-everglades-61786.herokuapp.com/",
         "git": "https://github.com/Krieffer21/Y.A.MAKER"
