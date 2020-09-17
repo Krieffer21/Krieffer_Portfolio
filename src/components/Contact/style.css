@@ -32,3 +32,13 @@
 .btn-primary {
     border-color: #666F76;
 }
+
+.cont-btn{
+    background-color: #006BA6;
+    border-radius: 5px;
+    color: white;
+}
+
+.cont-btn:hover{
+    background-color: #0496FF;
+}
