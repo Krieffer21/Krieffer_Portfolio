@@ -13,7 +13,8 @@
 }
 
 .box {
-    margin: 0px;
+    margin: -1px;
+
 }
 
 .project {
@@ -27,14 +28,19 @@
     padding: 10px;
 }
 
-.btn-links{
+.btn-links {
     background-color: #56876D;
     border-radius: 5px;
     color: white;
 }
 
-.btn-links:hover{
+.btn-links:hover {
     background-color: #8DB38B;
 
+}
+
+.contact {
+    /* max-width: 500px; */
+    margin: 5px;
 }
 

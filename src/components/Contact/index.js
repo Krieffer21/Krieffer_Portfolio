@@ -5,7 +5,7 @@ import Container from "../Container";
 function Contact() {
     return (
         <div className="cont-bg-img">
-            <div className="container" >
+            <div className="container col-lg-4 col-md-8 col-sm-12" >
                 <header className="card-header">
                     Contact
                 </header>
@@ -15,8 +15,8 @@ function Contact() {
                 </Container>
             </div>
             
-            <section>
-                <div className="container link">
+            <section className="container link col-lg-4 col-md-8 col-sm-8 mx-auto">
+                <div >
                     <h3> Links </h3>
                     <Container >
                         <a className="container" type="submit" href="https://github.com/Krieffer21/">
