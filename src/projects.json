@@ -58,7 +58,7 @@
         "id": 7,
         "project": "Eat Da Burger!",
         "about":"This application emulates the example 'Eat Da Burger' application. It allows the user to enter a burger name and then click a button to 'Devour it!'. The burger logger was built with MySQL, Node, Express, Handlebars and a homemade ORM.",
-        "src": "https://drive.google.com/uc?export=view&id=10gVOZudiS2EQoRxbu7H6Roc8hXcYwCOK",
+        "src": "https://drive.google.com/uc?export=view&id=1mnIIoGzMqZgNXCB86uJUWvnIXbrV9nH_",
         "alt": "Burger App",
         "depl": "https://shielded-bayou-55697.herokuapp.com/",
         "git": "https://github.com/Krieffer21/Krieffer_Handlebars"
