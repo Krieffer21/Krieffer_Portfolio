@@ -1,5 +1,6 @@
 .aboutpro {
-    padding: 20px;
+    padding: 30px;
+    background-color: #ffffffb2;
 }
 
 .linkbtns {
@@ -9,7 +10,7 @@
 }
 
 .port {
-    background-color: #e6e6e6b8;
+    /* background-color: #e6e6e6b8; */
     border-radius: 2px;
     outline-color:  #666F76;
     outline-style: solid;
@@ -21,20 +22,16 @@
 }
 
 .project {
-    width: 80%;
+    width: 100%;
     height: auto;
     padding: 15px;
+    align-self: center;
 }
 
 .portfolio {
     text-align: center;
     padding: 10px;
-}
-
-.btn-links {
-    background-color: #56876D;
-    border-radius: 5px;
-    color: white;
+    margin: 5px;
 }
 
 .btn-links:hover {
@@ -47,3 +44,6 @@
     margin: 5px;
 }
 
+.card-title{
+    color: white;
+}
