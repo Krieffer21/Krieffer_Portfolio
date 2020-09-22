@@ -7,14 +7,14 @@ function Portfolio(props) {
     return (
         <div className="container ">
 
-            <div className="row row-cols-2 contact">
-                <div className=" col ">
+            <div className="contact">
+                <div className="row">
                     <Container>
-                        <section className="portfolio">
+                        <section className="portfolio col-lg-6">
                             <h4> {props.project} </h4>
                             <article className="container port">
                                 <img className="project" alt={props.alt} src={props.src} />
-                                <div>{props.about}</div>
+                                <div className="aboutpro">{props.about}</div>
                                 <Container>
                                     <a className="container" type="submit" href={props.depl}> <button className="btn-links">Deployed link</button></a>
                                     <a className="container" type="submit" href={props.git}> <button className="btn-links">GitHub link</button></a>

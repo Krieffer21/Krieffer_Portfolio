@@ -1,8 +1,9 @@
-
+.aboutpro {
+    padding: 20px;
+}
 
 .container {
     padding: 10px;
-    /* align-self: center; */
     outline-width: 2px;    
     word-wrap: break-word;
 }
