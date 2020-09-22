@@ -6,11 +6,11 @@
     overflow: hidden;
 }
 
-.container {
+/* .container {
     padding: 20px;
     align-self: center;
     outline-width: 2px;    
-}
+} */
 
 .card-header {
     border: #3b464a;
