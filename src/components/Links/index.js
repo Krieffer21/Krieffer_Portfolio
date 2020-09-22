@@ -9,12 +9,13 @@ function Link() {
                 <section id="box">
                     <div className="container link">
                         <h3 className="links"> Links </h3>
-                        <a className="container" type="submit" href="https://github.com/Krieffer21/">
+                        <a className="container lbtns" type="submit" href="https://github.com/Krieffer21/">
                             <button className="link-btns">Git Hub Page</button>
                         </a>
-                        <a className="container" type="submit" href="https://www.linkedin.com/in/kaelyn-rieffer-b41a811a2/">                        <button className="link-btns">LinkedIn page</button>
+                        <a className="container lbtns" type="submit" href="https://www.linkedin.com/in/kaelyn-rieffer-b41a811a2/">
+                            <button className="link-btns">LinkedIn page</button>
                         </a>
-                        <a className="container" type="submit" href="https://docs.google.com/document/d/1eRAWQx83EC40dg7i9n2EdPf5q38tbL7Lx2Y2ExZxBAQ/export?format=pdf">
+                        <a className="container lbtns" type="submit" href="https://docs.google.com/document/d/1eRAWQx83EC40dg7i9n2EdPf5q38tbL7Lx2Y2ExZxBAQ/export?format=pdf">
                             <button className="link-btns">Resume</button>
                         </a>
                     </div>
