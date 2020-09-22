@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import axios from 'axios';
 import "./style.css";
-import Container from "../Container";
+import Links from "../Links";
 
 export default class Contact extends Component {
 
@@ -80,63 +80,50 @@ export default class Contact extends Component {
                 {/* </div> */}
 
                 <section className="container-fluid">
-                <form className="row hero-image-contact" onSubmit={this.formSubmit}>
-                    <div className="col form-area formContact">
-                        <div className="form-group mx-auto groupContact w-75">
-                            <input type="text"
-                                name="name"
-                                className="form-control contact"
-                                id="nameInput"
-                                placeholder="Name"
-                                title="Please enter your Name"
-                                value={this.state.name}
-                                onChange={this.handleName}
-                                required
-                            />
-                            <input type="email"
-                                name="email"
-                                className="form-control contact"
-                                id="emailAddressInput"
-                                placeholder="Email"
-                                title="Please enter your email address"
-                                value={this.state.email}
-                                onChange={this.handleEmail}
-                                required
-                            />
-                            <textarea className="form-control contact"
-                                name='message'
-                                id="messageTextAreaInput"
-                                placeholder="Message"
-                                rows="5"
-                                value={this.state.message}
-                                onChange={this.handleMessage}
-                                required
-                            ></textarea>
-                            <button type="submit" className="btn contact-button float-right mt-4">Submit</button>
+                    <form className="row hero-image-contact" onSubmit={this.formSubmit}>
+                        <div className="col form-area formContact">
+                            <div className="form-group mx-auto groupContact w-75">
+                                <input type="text"
+                                    name="name"
+                                    className="form-control contact"
+                                    id="nameInput"
+                                    placeholder="Name"
+                                    title="Please enter your Name"
+                                    value={this.state.name}
+                                    onChange={this.handleName}
+                                    required
+                                />
+                                <input type="email"
+                                    name="email"
+                                    className="form-control contact"
+                                    id="emailAddressInput"
+                                    placeholder="Email"
+                                    title="Please enter your email address"
+                                    value={this.state.email}
+                                    onChange={this.handleEmail}
+                                    required
+                                />
+                                <textarea className="form-control contact"
+                                    name='message'
+                                    id="messageTextAreaInput"
+                                    placeholder="Message"
+                                    rows="5"
+                                    value={this.state.message}
+                                    onChange={this.handleMessage}
+                                    required
+                                ></textarea>
+                                <button type="submit" className="btn contact-button float-right mt-4">Submit</button>
+                            </div>
                         </div>
-                    </div>
-                </form>
-            </section >
+                    </form>
+                </section >
 
 
 
+                <div>
+                    <Links />
+                </div>
 
-
-                <Container >
-
-                    <section className="container link col-lg-4 col-md-8 col-sm-8 mx-auto">
-                        <div >
-
-                            <h3> Links </h3>
-                            <a className="container" type="submit" href="https://github.com/Krieffer21/">
-                                <button className="cont-btn">Github</button> </a>
-
-                            <a className="container" type="submit" href="https://www.linkedin.com/in/kaelyn-rieffer-b41a811a2/"><button className="cont-btn">LinkedIn</button> </a>
-
-                            <a className="container" type="submit" href="https://docs.google.com/document/d/1eRAWQx83EC40dg7i9n2EdPf5q38tbL7Lx2Y2ExZxBAQ/export?format=pdf"> <button className="cont-btn">Resume</button></a>
-                        </div>
-                    </section>
-                </Container>
             </div>
 
         );
