@@ -6,15 +6,31 @@
     overflow: hidden;
 }
 
-/* .container {
-    padding: 20px;
-    align-self: center;
-    outline-width: 2px;    
-} */
+.contact-button {
+    background-color: white;
+    margin-left: 67%;
+    text-decoration: none;
+    color: white;
+}
+.contact-button:hover {
+    background-color: #E2B4BD;
+}
+
+.formContact {
+    margin: 10%;
+}
+
+.groupContact > input {
+    margin-bottom: 20px;
+}
+
+.contact {
+    border-radius: 0;
+}
 
 .card-header {
-    border: #3b464a;
-    background-color: #3b464a;
+    border: #131212;
+    background-color: #32292f;
     color: #E2B4BD;
     font-size: larger;
 }

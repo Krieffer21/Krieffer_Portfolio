@@ -80,9 +80,9 @@ export default class Contact extends Component {
                 {/* </div> */}
 
                 <section className="container-fluid">
-                    <form className="row hero-image-contact" onSubmit={this.formSubmit}>
-                        <div className="col form-area formContact">
-                            <div className="form-group mx-auto groupContact w-75">
+                    <form className="row mb-5" onSubmit={this.formSubmit}>
+                        <div className="col col-lg-6 form-area mx-auto formContact">
+                            <div className="form-group mx-auto groupContact  w-70">
                                 <input type="text"
                                     name="name"
                                     className="form-control contact"

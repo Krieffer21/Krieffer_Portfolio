@@ -4,7 +4,7 @@ import Container from "../Container";
 
 function Link() {
     return (
-        <div className="row justify-content-md-center">
+        <div className="row justify-content-md-center mt-3">
             <Container className="col-md-6 col-sm-8 col-lg-6">
                 <section id="box">
                     <div className="container link">
