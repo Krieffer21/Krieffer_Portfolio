@@ -4,7 +4,7 @@ import "./style.css";
 function Portfolio(props) {
     return (
         <div className="portfolio">
-            <div className="card port">
+            <div className="card port col-lg-6 col-md-10 col-sm-12">
                 <img className="project" alt={props.alt} src={props.src} />
                 <div className="card-body">
                     <h5 className="card-title">{props.project}</h5>

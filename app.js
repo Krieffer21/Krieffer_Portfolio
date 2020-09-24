@@ -1,18 +1,26 @@
 const nodemailer = require("nodemailer");
 const express = require("express");
 const PORT = process.env.PORT || 3000;
+const app = express();
+const cors = require('cors');
+const path = require('path');
 
 let corsOptions = {
-    origin: "http://localhost:3000"
-  }  
+  origin: "http://localhost:3000"
+}
 
 app.use(cors(corsOptions));
 app.use(express.urlencoded({ extended: true }));
 
+require("./src/components/Contact/index.js")(app);
+app.use(function (req, res) {
+  res.sendFile(path.join(__dirname, "./client/public/index.html"));
+});
+
 
 module.exports = function (app) {
 
-app.post('/api/form', (req, res) => {
+  app.post('/api/form', (req, res) => {
     let data = req.body;
     console.log(data);
     let smtpTransport = nodemailer.createTransport({
@@ -54,9 +62,9 @@ app.post('/api/form', (req, res) => {
 }
 
 app.listen(PORT, () => {
-    console.log(
-      "==> 🌎  Listening on port %s. Visit http://localhost:%s/ in your browser.",
-      PORT,
-      PORT
-    );
-  });
+  console.log(
+    "==> 🌎  Listening on port %s. Visit http://localhost:%s/ in your browser.",
+    PORT,
+    PORT
+  );
+});

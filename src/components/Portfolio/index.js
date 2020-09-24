@@ -5,7 +5,7 @@ import Portfolio from "../Portfolio/projects"
 
 function Projects() {
     return (
-        <div id="projects">
+        <div >
             {projects.map(project => (
                 <Portfolio
                     id={project.id}

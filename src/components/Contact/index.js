@@ -42,7 +42,7 @@ export default class Contact extends Component {
         }
 
         axios.post('/api/form', data)
-            .then(res => {
+            .then(res=> {
                 this.setState({
                     sent: true,
                 }, this.resetForm())
