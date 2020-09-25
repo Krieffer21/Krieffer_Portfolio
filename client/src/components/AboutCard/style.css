@@ -5,29 +5,28 @@
     height: 200vh;
     overflow: hidden;
 }
+
 #about {
     margin: 30px;
     padding: 10px;
-    background-color: #e6e6e6b9;
-    border-radius: 2px;
-    outline-color:  #666F76;
-    outline-style: solid;
-    align-self: auto;
 } 
+
 .meimg {
     max-height: 350px;
     margin: 30px;
-    padding: 10px;
 }
+
 .meText {
     text-align: left;
-    margin: 20px;
-    padding: 20px;
+    padding: 15px;
+    background-color: #e6e6e6b9;
 }
+
 h1 {
     text-align: center;
     font-size: large;
 }
+
 .row {
     margin: 0px;
 }
