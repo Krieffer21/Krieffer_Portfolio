@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import axios from 'axios';
 import "./style.css";
 import Links from "../Links";
+import Container from "../Container";
+
 
 export default class Contact extends Component {
 
@@ -78,6 +80,10 @@ export default class Contact extends Component {
                         <p className="cont">Phone: 520-907-4678 </p>
                     </Container> */}
                 {/* </div> */}
+                <Container className= "cont-links mt-5 ">
+                    <Links />
+                </Container>
+
                 <section className="container-fluid">
                     
                     <form className="row mb-5" onSubmit={this.formSubmit}>
@@ -119,9 +125,6 @@ export default class Contact extends Component {
                     </form>
 
                 </section >
-                <div>
-                    <Links />
-                </div>
             </div>
         );
     }

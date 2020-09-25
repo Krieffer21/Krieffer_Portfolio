@@ -6,6 +6,10 @@
     overflow: hidden;
 }
 
+.cont-links {
+    padding: 10px;
+}
+
 .contact-button {
     background-color: white;
     margin-left: 67%;
@@ -47,8 +51,8 @@
     font-size: medium;
 }
 .form-group {
-    background-color: #e6e6e6;
     padding: 20px;
+    background-color: #e6e6e6;
 }
 
 .btn {
