@@ -1,13 +1,6 @@
 .link {
     background-color: #e6e6e6b9;
-    border-radius: 2px;
-    outline-color:  #666F76;
-    outline-style: solid;
-
-}
-
-.links {
-    /* style text for the word links */
+    border-radius: 10px;
 }
 
 #links {
