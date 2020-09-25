@@ -42,7 +42,7 @@ export default class Contact extends Component {
         }
 
         axios.post('/api/form', data)
-            .then(res=> {
+            .then(res => {
                 this.setState({
                     sent: true,
                 }, this.resetForm())
@@ -78,54 +78,51 @@ export default class Contact extends Component {
                         <p className="cont">Phone: 520-907-4678 </p>
                     </Container> */}
                 {/* </div> */}
-
                 <section className="container-fluid">
+                    
                     <form className="row mb-5" onSubmit={this.formSubmit}>
-                        <div className="col col-lg-6 form-area mx-auto formContact">
-                            <div className="form-group mx-auto groupContact  w-70">
-                                <input type="text"
-                                    name="name"
-                                    className="form-control contact"
-                                    id="nameInput"
-                                    placeholder="Name"
-                                    title="Please enter your Name"
-                                    value={this.state.name}
-                                    onChange={this.handleName}
-                                    required
-                                />
-                                <input type="email"
-                                    name="email"
-                                    className="form-control contact"
-                                    id="emailAddressInput"
-                                    placeholder="Email"
-                                    title="Please enter your email address"
-                                    value={this.state.email}
-                                    onChange={this.handleEmail}
-                                    required
-                                />
-                                <textarea className="form-control contact"
-                                    name='message'
-                                    id="messageTextAreaInput"
-                                    placeholder="Message"
-                                    rows="5"
-                                    value={this.state.message}
-                                    onChange={this.handleMessage}
-                                    required
-                                ></textarea>
-                                <button type="submit" className="btn contact-button float-right mt-4">Submit</button>
+                            <div className="col col-lg-6 form-area mx-auto formContact">
+                                <div className="form-group mx-auto groupContact  w-70">
+                                    <input type="text"
+                                        name="name"
+                                        className="form-control contact"
+                                        id="nameInput"
+                                        placeholder="Name"
+                                        title="Please enter your Name"
+                                        value={this.state.name}
+                                        onChange={this.handleName}
+                                        required
+                                    />
+                                    <input type="email"
+                                        name="email"
+                                        className="form-control contact"
+                                        id="emailAddressInput"
+                                        placeholder="Email"
+                                        title="Please enter your email address"
+                                        value={this.state.email}
+                                        onChange={this.handleEmail}
+                                        required
+                                    />
+                                    <textarea className="form-control contact"
+                                        name='message'
+                                        id="messageTextAreaInput"
+                                        placeholder="Message"
+                                        rows="5"
+                                        value={this.state.message}
+                                        onChange={this.handleMessage}
+                                        required
+                                    ></textarea>
+                                    <button type="submit" className="btn contact-button float-right mt-4">Submit</button>
+                                </div>
                             </div>
-                        </div>
+
                     </form>
+
                 </section >
-
-
-
                 <div>
                     <Links />
                 </div>
-
             </div>
-
         );
     }
 }

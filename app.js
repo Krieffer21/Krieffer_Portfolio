@@ -1,21 +1,23 @@
 const nodemailer = require("nodemailer");
 const express = require("express");
+const bodyParser = require("bodyParser");
 const PORT = process.env.PORT || 3000;
 const app = express();
 const cors = require('cors');
-const path = require('path');
+// const path = require('path');
 
-let corsOptions = {
-  origin: "http://localhost:3000"
-}
+// let corsOptions = {
+//   origin: "http://localhost:3000"
+// }
 
-app.use(cors(corsOptions));
-app.use(express.urlencoded({ extended: true }));
+app.use(cors());
+app.use(bodyParser.urlencoded({ extended: true }));
+app.use(bodyParser.json());
 
-require("./src/components/Contact/index.js")(app);
-app.use(function (req, res) {
-  res.sendFile(path.join(__dirname, "./client/public/index.html"));
-});
+// require("./src/components/Contact/index.js")(app);
+// app.use(function (req, res) {
+//   res.sendFile(path.join(__dirname, "./client/build/index.html"));
+// });
 
 
 module.exports = function (app) {
@@ -28,8 +30,8 @@ module.exports = function (app) {
       port: 465,
       secure: true,
       auth: {
-        user: process.env.EMAIL,
-        pass: process.env.PASSWORD
+        user: "proj3group@gmail.com",
+        pass: "Thegooniestest"
       }
     })
 
