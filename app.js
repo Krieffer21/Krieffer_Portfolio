@@ -1,10 +1,10 @@
 const nodemailer = require("nodemailer");
 const express = require("express");
-const bodyParser = require("bodyParser");
+const bodyParser = require("body-parser");
 const PORT = process.env.PORT || 3000;
 const app = express();
 const cors = require('cors');
-// const path = require('path');
+const path = require('path');
 
 // let corsOptions = {
 //   origin: "http://localhost:3000"
@@ -15,12 +15,11 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
 
 // require("./src/components/Contact/index.js")(app);
-// app.use(function (req, res) {
-//   res.sendFile(path.join(__dirname, "./client/build/index.html"));
-// });
+app.use(express.static(path.join(__dirname, 'client/build')))
+app.get("*", (req, res) => {
+  res.sendFile(path.join(__dirname, "./client/build/index.html"));
+});
 
-
-module.exports = function (app) {
 
   app.post('/api/form', (req, res) => {
     let data = req.body;
@@ -30,8 +29,8 @@ module.exports = function (app) {
       port: 465,
       secure: true,
       auth: {
-        user: "proj3group@gmail.com",
-        pass: "Thegooniestest"
+        user: process.env.user || "proj3group@gmail.com",
+        pass: process.env.pass || "Thegooniestest"
       }
     })
 
@@ -61,12 +60,11 @@ module.exports = function (app) {
 
     smtpTransport.close();
   })
-}
+
 
 app.listen(PORT, () => {
   console.log(
     "==> 🌎  Listening on port %s. Visit http://localhost:%s/ in your browser.",
-    PORT,
     PORT
   );
 });
