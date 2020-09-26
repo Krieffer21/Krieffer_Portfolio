@@ -1,0 +1,32 @@
+.bg-img{
+    background-image: url(https://drive.google.com/uc?export=view&id=1M7lXpFLpBYp5aoa7-tjg_hPfhT0M82sZ);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 200vh;
+    overflow: hidden;
+}
+
+#about {
+    margin: 30px;
+    padding: 10px;
+} 
+
+.meimg {
+    max-height: 350px;
+    margin: 30px;
+}
+
+.meText {
+    text-align: left;
+    padding: 15px;
+    background-color: #e6e6e6b9;
+}
+
+h1 {
+    text-align: center;
+    font-size: large;
+}
+
+.row {
+    margin: 0px;
+}
