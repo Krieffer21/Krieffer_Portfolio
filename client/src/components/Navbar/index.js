@@ -10,13 +10,13 @@ function NavTabs() {
           <div id="topNav">
             <div id="name" >Kaelyn Rieffer</div>
             <div>
-              <Link className="navbar-brand" to="/Krieffer_Portfolio" >
+              <Link className="navbar-brand" to="/" >
                 About
                </Link>
-              <Link className="navbar-brand" to="/Krieffer_Portfolio/portfolio">
+              <Link className="navbar-brand" to="/portfolio">
                 Portfolio
                </Link>
-              <Link className="navbar-brand" to="/Krieffer_Portfolio/contact">
+              <Link className="navbar-brand" to="/contact">
                 Contact
                </Link>
             </div>

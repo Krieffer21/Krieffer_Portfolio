@@ -6,31 +6,25 @@ const app = express();
 const cors = require('cors');
 const path = require('path');
 
-// let corsOptions = {
-//   origin: "http://localhost:3000"
-// }
-
 app.use(cors());
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
 
-// require("./src/components/Contact/index.js")(app);
 app.use(express.static(path.join(__dirname, 'client/build')))
 app.get("*", (req, res) => {
   res.sendFile(path.join(__dirname, "./client/build/index.html"));
 });
 
-
   app.post('/api/form', (req, res) => {
     let data = req.body;
     console.log(data);
     let smtpTransport = nodemailer.createTransport({
-      service: process.env.SERVICE || "Gmail",
+      service:  "Gmail",
       port: 465,
       secure: true,
       auth: {
-        user: process.env.user || "proj3group@gmail.com",
-        pass: process.env.pass || "Thegooniestest"
+        user:  "proj3group@gmail.com",
+        pass:  "Thegooniestest"
       }
     })
 
