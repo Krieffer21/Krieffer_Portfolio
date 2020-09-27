@@ -10,7 +10,7 @@ app.use(cors());
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
 
-app.use(express.static(path.join(__dirname, 'client/build')))
+app.use(express.static(path.join(__dirname, "client/build")));
 app.get("*", (req, res) => {
   res.sendFile(path.join(__dirname, "./client/build/index.html"));
 });
@@ -23,14 +23,14 @@ app.get("*", (req, res) => {
       port: 465,
       secure: true,
       auth: {
-        user:  "proj3group@gmail.com",
-        pass:  "Thegooniestest"
+        user:  "kaelynrieffer@gmail.com",
+        pass:  "fruitsbasket"
       }
     })
 
     let mailOptions = {
       from: data.email,
-      to: process.env.EMAIL,
+      to: "kaelynrieffer@gmail.com",
       subject: `Message from ${data.name}`,
       html: `
         <h3> Information </h3>
@@ -54,11 +54,7 @@ app.get("*", (req, res) => {
 
     smtpTransport.close();
   })
-
-
+  
 app.listen(PORT, () => {
-  console.log(
-    "==> 🌎  Listening on port %s. Visit http://localhost:%s/ in your browser.",
-    PORT
-  );
-});
+    console.log(`app listening on port ${PORT}`);
+})

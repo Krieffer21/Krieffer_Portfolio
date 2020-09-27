@@ -5,7 +5,7 @@ import Links from "../Links";
 import Container from "../Container";
 
 
-export default class Contact extends Component {
+export default class Form extends Component {
 
     state = {
         name: "",
@@ -85,7 +85,6 @@ export default class Contact extends Component {
                 </Container>
 
                 <section className="container-fluid">
-                    
                     <form className="row mb-5" onSubmit={this.formSubmit}>
                             <div className="col col-lg-6 form-area mx-auto formContact">
                                 <div className="form-group mx-auto groupContact  w-70">
@@ -121,9 +120,7 @@ export default class Contact extends Component {
                                     <button type="submit" className="btn contact-button float-right mt-4">Submit</button>
                                 </div>
                             </div>
-
                     </form>
-
                 </section >
             </div>
         );
