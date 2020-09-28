@@ -2,10 +2,9 @@ import React from "react";
 import projects from "../../projects.json"
 import Portfolio from "../Portfolio/projects"
 
-
 function Projects() {
     return (
-        <div >
+        <div className="col">
             {projects.map(project => (
                 <Portfolio
                     id={project.id}
