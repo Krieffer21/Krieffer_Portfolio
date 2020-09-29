@@ -10,11 +10,11 @@
 }
 
 .port {
-    /* background-color: #e6e6e6b8; */
     border-radius: 2px;
     outline-color:  #666F76;
     outline-style: solid;
 }
+
 
 .box {
     margin: -1px;
@@ -40,7 +40,6 @@
 }
 
 .contact {
-    /* max-width: 500px; */
     margin: 5px;
 }
 
