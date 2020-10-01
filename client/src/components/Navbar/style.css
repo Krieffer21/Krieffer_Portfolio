@@ -1,7 +1,6 @@
 .navbar-brand {
     font-size: large;
     color: #e6e6e6;
-    margin: 10px;
     text-align: right;
 }
 
@@ -21,7 +20,7 @@
     font-size: xx-large;
     font-family: 'Satisfy', cursive;;
     font-weight: bold;
-    margin: 40px;
     margin-bottom: 0px;
     text-align: left;
+    padding: 10px;
 }
