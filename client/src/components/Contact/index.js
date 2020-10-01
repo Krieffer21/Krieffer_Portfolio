@@ -71,20 +71,23 @@ export default class Form extends Component {
     render() {
         return (
             <div className="cont-bg-img">
-                {/* <div className="container col-lg-4 col-md-8 col-sm-12" >
-                    <header className="card-header">
-                        Contact
-                </header>
-                    <Container className="card-body">
-                        <p className="cont">Email: kaelynrieffer@gmail.com </p>
-                        <p className="cont">Phone: 520-907-4678 </p>
-                    </Container> */}
-                {/* </div> */}
-                <Container className= "cont-links mt-5 ">
-                    <Links />
+                <Container className="cont-links mt-5 ">
+                    <div className="container col-lg-4 col-md-8 col-sm-12" >
+                        <header className="card-header">
+                            Contact
+                        </header>
+                        <Container className="card-body">
+                            <div className="cardbod">
+                                <a href="mailto:kaelynrieffer@gmail.com">
+                            <p className="cont">Email: kaelynrieffer@gmail.com </p>
+                            </a>
+                            <p className="cont">Phone: 520-907-4678 </p>
+                            </div>
+                            <Links />
+                        </Container>
+                    </div>
                 </Container>
-
-                <section className="container-fluid">
+                {/* <section className="container-fluid">
                     <form className="row mb-5" onSubmit={this.formSubmit}>
                             <div className="col col-lg-6 form-area mx-auto formContact">
                                 <div className="form-group mx-auto groupContact  w-70">
@@ -121,7 +124,7 @@ export default class Form extends Component {
                                 </div>
                             </div>
                     </form>
-                </section >
+                </section > */}
             </div>
         );
     }
