@@ -8,6 +8,7 @@
 
 .cont-links {
     padding: 10px;
+    
 }
 
 .contact-button {
@@ -36,13 +37,16 @@
     border: #131212;
     color: #E2B4BD;
     font-size: larger;
+    background-color: #393e41;
 }
 
 .card-body {
     border: #3b464a;
     background-color: #666F76;
+}
+
+.cardbod {
     font-size: larger;
-  
 }
 
 .cont {
