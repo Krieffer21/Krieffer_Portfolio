@@ -1,0 +1,80 @@
+.cont-bg-img{
+    background-image: url(https://drive.google.com/uc?export=view&id=1G17BYWAf8SqBDMF7mlYtlpaPdYaNSVIL);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 200vh;
+    overflow: hidden;
+}
+
+.cont-links {
+    padding: 10px;
+    
+}
+
+.contact-button {
+    background-color: white;
+    margin-left: 67%;
+    text-decoration: none;
+    color: white;
+}
+.contact-button:hover {
+    background-color: #E2B4BD;
+}
+
+.formContact {
+    margin: 10%;
+}
+
+.groupContact > input {
+    margin-bottom: 20px;
+}
+
+.contact {
+    border-radius: 0;
+}
+
+.card-header {
+    border: #131212;
+    color: #E2B4BD;
+    font-size: larger;
+    background-color: #393e41;
+}
+
+.card-body {
+    border: #3b464a;
+    background-color: #666F76;
+}
+
+.cardbod {
+    font-size: larger;
+}
+
+.cont {
+    color: #e6e6e6;
+    padding-left: 10px;  
+    font-size: medium;
+}
+.form-group {
+    padding: 20px;
+    background-color: #e6e6e6;
+}
+
+.btn {
+    margin: 10px;
+    padding: 10px;
+    background-color: #666F76;
+}
+
+.btn-primary {
+    border-color: #666F76;
+}
+
+.cont-btn{
+    background-color: #006BA6;
+    border-radius: 5px;
+    color: white;
+}
+
+.cont-btn:hover{
+    background-color: #0496FF;
+}
