@@ -1,8 +1,9 @@
-import React, { Component } from 'react';
+import React from 'react';
 import "./style.css";
 import Links from "../Links";
 import Container from "../Container";
-import Resume from "../Resume";
+// import Resume from "../Resume";
+import Skills from "../Skills";
 
 function contact() {
     return (
@@ -23,7 +24,7 @@ function contact() {
                     </Container>
                 </div>
             </Container>
-            <Resume />
+            <Skills/>
         </div>
     );
 }
