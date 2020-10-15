@@ -11,7 +11,7 @@ function NavTabs() {
             <div id="name" >Kaelyn Rieffer</div>
             <div>
               <Link className="navbar-brand" to="/" >
-                About Me
+                About
                </Link>
               <Link className="navbar-brand" to="/portfolio">
                 Portfolio

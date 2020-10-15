@@ -1,11 +1,10 @@
 import React from "react";
 import projects from "../../projects.json"
-import Portfolio from "../Portfolio/projects"
-
+import Portfolio from "./projects"
 
 function Projects() {
     return (
-        <div id="projects">
+        <div className="col">
             {projects.map(project => (
                 <Portfolio
                     id={project.id}
@@ -13,6 +12,7 @@ function Projects() {
                     project={project.project}
                     src={project.src}
                     alt={project.alt}
+                    about={project.about}
                     depl={project.depl}
                     git={project.git}
                 />

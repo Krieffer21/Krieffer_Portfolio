@@ -1,26 +1,48 @@
-.container {
+.aboutpro {
+    padding: 30px;
+    background-color: #ffffffb2;
+}
+
+.linkbtns {
     padding: 10px;
-    align-self: center;
     outline-width: 2px;    
     word-wrap: break-word;
 }
 
 .port {
-    background-color: #e6e6e6;
     border-radius: 2px;
     outline-color:  #666F76;
     outline-style: solid;
-    padding: 10px;
 }
-#box {
-    margin: 10px;
+
+
+.box {
+    margin: -1px;
+
 }
+
 .project {
-    width: 80%;
+    width: 100%;
     height: auto;
     padding: 15px;
+    align-self: center;
 }
+
 .portfolio {
     text-align: center;
     padding: 10px;
+    margin: 5px;
+}
+
+.btn-links:hover {
+    background-color: #8DB38B;
+
+}
+
+.contact {
+    margin: 5px;
+}
+
+.card-title{
+    color: white;
 }
