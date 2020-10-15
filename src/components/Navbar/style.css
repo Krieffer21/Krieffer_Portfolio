@@ -1,0 +1,26 @@
+.navbar-brand {
+    font-size: large;
+    color: #e6e6e6;
+    text-align: right;
+}
+
+#topNav{
+    background-color: #262e2e;
+    width: 100%;
+    padding: 10px;
+}
+.sticky-top {
+    text-align: center;
+    font-family: 'Lora', serif;;
+    width: 100%;
+}
+
+#name {
+    color: #E2B4BD;
+    font-size: xx-large;
+    font-family: 'Satisfy', cursive;;
+    font-weight: bold;
+    margin-bottom: 0px;
+    text-align: left;
+    padding: 10px;
+}

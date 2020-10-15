@@ -1,0 +1,30 @@
+.link {
+    background-color: #e6e6e6b9;
+    border-radius: 10px;
+}
+
+#links {
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    word-wrap: break-word;
+}
+
+.link-btns{
+    color: white;
+    background-color: #103900;
+    border-radius: 5px;
+}
+
+.link-btns:hover{
+    background-color: #102B3F;
+    
+}
+
+#box {
+    text-align: center;
+}
+
+.lbtns {
+    margin: 5px;
+}
