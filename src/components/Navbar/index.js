@@ -13,7 +13,7 @@ function NavTabs() {
               <Link className="navbar-brand" to="/" >
                 About
                </Link>
-              <Link className="navbar-brand" to="/portfolio">
+              <Link className="navbar-brand" to="/work">
                 Portfolio
                </Link>
               <Link className="navbar-brand" to="/contact">
