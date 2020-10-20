@@ -8,7 +8,7 @@ function skill() {
                 <h2 className="header">
                     Technical Skills
                 </h2>
-                <table className="table">
+                <table className="table table-hover table-sm table-responsive-sm">
                     <tbody>
                         <tr>
                             <td>
